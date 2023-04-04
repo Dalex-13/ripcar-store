@@ -1,4 +1,4 @@
-package com.ripcar.laminas.ripcar;
+package com.ripcar;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

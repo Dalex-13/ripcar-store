@@ -1,6 +1,6 @@
-package com.ripcar.laminas.ripcar.repository;
+package com.ripcar.repository;
 
-import com.ripcar.laminas.ripcar.entitys.Product;
+import com.ripcar.entitys.Product;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

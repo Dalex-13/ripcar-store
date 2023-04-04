@@ -1,4 +1,4 @@
-package com.ripcar.laminas.ripcar;
+package com.ripcar;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

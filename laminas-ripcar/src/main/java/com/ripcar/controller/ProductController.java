@@ -1,7 +1,7 @@
-package com.ripcar.laminas.ripcar.controller;
+package com.ripcar.controller;
 
-import com.ripcar.laminas.ripcar.entitys.Product;
-import com.ripcar.laminas.ripcar.service.ProductService;
+import com.ripcar.entitys.Product;
+import com.ripcar.service.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -24,13 +24,13 @@ public class ProductController {
         return service.listAllProduct();
     }
 
-    @GetMapping("/search /{id}")
+    @GetMapping("/search/{id}")
     public Product searchById(@PathVariable Long id){
         Product product = service.searchById(id);
         return product;
     }
 
-    @PutMapping("/search /{id}")
+    @PutMapping("/search/{id}")
     public Product updateProductById(@RequestBody Product product, @PathVariable Long id){
         Product updatedProduct = service.searchById(id);
 
@@ -43,7 +43,7 @@ public class ProductController {
         return updatedProduct;
     }
 
-    @DeleteMapping("/search /{id}")
+    @DeleteMapping("/search/{id}")
     public void deleteById(@PathVariable Long id){
         service.deleteById(id);
     }

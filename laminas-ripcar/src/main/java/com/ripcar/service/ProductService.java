@@ -1,6 +1,6 @@
-package com.ripcar.laminas.ripcar.service;
+package com.ripcar.service;
 
-import com.ripcar.laminas.ripcar.entitys.Product;
+import com.ripcar.entitys.Product;
 
 import java.util.List;
 

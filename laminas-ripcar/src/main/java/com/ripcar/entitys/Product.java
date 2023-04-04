@@ -1,4 +1,4 @@
-package com.ripcar.laminas.ripcar.entitys;
+package com.ripcar.entitys;
 
 import javax.persistence.*;
 

@@ -1,7 +1,7 @@
-package com.ripcar.laminas.ripcar.service;
+package com.ripcar.service;
 
-import com.ripcar.laminas.ripcar.entitys.Product;
-import com.ripcar.laminas.ripcar.repository.ProductRepository;
+import com.ripcar.entitys.Product;
+import com.ripcar.repository.ProductRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
